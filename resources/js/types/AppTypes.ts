@@ -1,0 +1,38 @@
+export interface EventTypes {
+	id: Number,
+	name: String,
+	date: Date,
+	time: Date,
+	org_name: String,
+	org_email: String,
+	org_phone: String,
+	social_links: Object,
+	description: String,
+	url: String,
+	image: String,
+	video: String,
+	users: Array<any>,
+	submitted: Boolean,
+	created_at: Date,
+}
+
+export interface UserTypes {
+	id: Number,
+	firstname: String,
+	lastname: String,
+	username: String,
+	dob: Date,
+	address: String,
+	city: String,
+	country: String,
+	postcode: String,
+	gender: String,
+	phone: String,
+	image: String,
+	assignEvent: Array<any>,
+	email: String,
+	password: String,
+	role: String,
+	submitted: Boolean,
+	created: Date
+}
