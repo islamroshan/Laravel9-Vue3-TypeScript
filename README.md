@@ -20,4 +20,4 @@ You can clone the project and make changes or distrubute it without any ristrict
 Thanks
 
 
-<img src="https://github.com/islamroshan/Laravel9-Vue3-TypeScript/blob/main/image.png" height="100%" width="100%">
+<img src="https://github.com/islamroshan/Laravel9-Vue3-TypeScript/blob/main/spantiklab.png" height="100%" width="100%">
