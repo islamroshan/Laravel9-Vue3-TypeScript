@@ -2,7 +2,7 @@
 
 Descripton: in this repository you will get Laravel-9 starter scafold with configured settings for instance, if you are planning to start a new project with vue and laravel then only thing you need will be to fetch this repository and start building your app.
 
-This includes all leatest pakages for development, Below are the list of pakages installed.
+This includes all latest pakages for development, Below are the list of pakages installed.
 
 <ul>
     <li>Laravel 9</li>
