@@ -15,7 +15,8 @@ This includes all leatest pakages for development, Below are the list of pakages
     <li>Prime Flex (Gird System) and many other dependencies to start a new project</li>
 </ul>
 
-You can clone the project and make changes or distrubute it without any ristrictions
+You can clone the project and make changes or distrubute it without any restrictions.
+Leave a Star/Fork if you appreciate my efforts.
 
 Thanks
 
