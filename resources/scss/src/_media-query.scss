@@ -1,0 +1,26 @@
+@media screen and (max-width: 960px) {
+    .logo {
+        width: 70%;
+        height: 70%;
+        margin-right: 0.4rem;
+    }
+    .layout-main {
+        margin-left: 0px;
+         
+        .layout-footer {
+            padding: 2rem 2rem;
+        }
+    }
+    .layout-topbar {
+        display: flex;
+        justify-content: space-between;
+        .p-menubar-button {
+            width: 2.5rem;
+            height: 2.5rem;
+        .pi {
+                font-size: 1.5rem;
+                color: var(--text-color);
+            }
+        }
+    }
+}

@@ -1,11 +1,12 @@
 import './bootstrap.js'
 import { createApp } from 'vue';
 import App from "./App.vue";
-// import router from './router/router';
-// import store from './store/store';
+import router from './router/router';
+import store from './store/store';
 
 import PrimeVue from "primevue/config";
 import Menubar from 'primevue/menubar';
+import MegaMenu from 'primevue/megamenu';
 import Sidebar from 'primevue/sidebar';
 import Button from 'primevue/button';
 import Image from 'primevue/image';
@@ -34,16 +35,12 @@ import DataView from 'primevue/dataview';
 import Editor from 'primevue/editor';
 import InputNumber from 'primevue/inputnumber';
 import Tooltip from 'primevue/tooltip';
-
-import 'primevue/resources/themes/lara-light-blue/theme.css';
-import "primevue/resources/primevue.min.css";
-import "primeicons/primeicons.css";
-import 'primeflex/primeflex.css';
+import Menu from 'primevue/menu';
 
 const app = createApp(App);
 app.use(PrimeVue, { ripple: true, inputStyle: 'outlined' });
-// app.use(router);
-// app.use(store);
+app.use(router);
+app.use(store);
 app.use(ToastService);
 app.use(ConfirmationService);
 
@@ -73,6 +70,8 @@ app.component('Avatar', Avatar);
 app.component('DataView', DataView);
 app.component('Editor', Editor);
 app.component('InputNumber', InputNumber);
+app.component('Menu', Menu);
+app.component('MegaMenu', MegaMenu)
 
 app.directive('tooltip', Tooltip);
 

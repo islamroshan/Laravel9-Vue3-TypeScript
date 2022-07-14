@@ -1,4 +1,4 @@
-export const authStore = {
+export const mainStore = {
 	namespaced: true,
 	state: () => ({
 		progressBar: false,
@@ -10,10 +10,10 @@ export const authStore = {
 		}
 	}),
 	mutations: {
-		progressBar(state, status) {
+		progressBar(state:any, status:any) {
 			state.a.progressBar = status
 		},
-		isLogin(state, data) {
+		isLogin(state:any, data:any) {
 			state.isLoggedin = data.success
 			if (data.success && data.user != '') {
 				let user = {
@@ -30,22 +30,22 @@ export const authStore = {
 				state.authUser.role = user.role
 			}
 		},
-		user(state, data) {
+		user(state:any, data:any) {
 			state.authUser.id = data.id
 			state.authUser.name = data.name
 			state.authUser.role = data.roles[0].name
 		}
 	},
 	actions: {
-		progressBarStart(context) {
+		progressBarStart(context:any) {
 			context.commit('a/progressBar', true)
 		},
-		progressBarEnd(context) {
+		progressBarEnd(context:any) {
 			context.commit('a/progressBar', false)
 		}
 	},
 	getters: {
-		loginStatus(state) {
+		loginStatus(state:any) {
 			return state.a.isLoggedin
 		}
 	}
