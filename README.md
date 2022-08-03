@@ -19,6 +19,26 @@ This includes all latest pakages for development, Below are the list of pakages 
 You can clone the project and make changes or distrubute it without any restrictions.
 Leave a Star/Fork if you appreciate my efforts.
 
+Follow these steps to run this app.
+
+<ol>
+<li>Make sure you have npm, node, php installed, I have used laravel sail for my development enviroment</li>
+<li>Clone the git repository</li>
+<li>cd into the directory</li>
+<li>Run, sail build or ./vendor/bin/sail build</li>
+<li>Run, Composer intall</li>
+<li>Run, npm install</li>
+<li>Run, sail down and then sail up -d</li>
+<li>Run, sail artisan migrate</li>
+<li>Run, sail db:seed</li>
+<li>Run, sail npm run dev</li>
+<li>Open browser and type localhost</li>
+</ol>
+
+Admin Dashboard Credentials
+Email: admin@gmail.com
+Pwd: 123456789
+
 Thanks
 
 <img src="https://github.com/islamroshan/Laravel9-Vue3-TypeScript/blob/main/image.png" height="100%" width="100%">
