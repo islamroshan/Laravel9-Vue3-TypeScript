@@ -6,10 +6,11 @@ This includes all latest pakages for development, Below are the list of pakages 
 
 <ul>
     <li>Laravel 9</li>
+    <li>Laravel Sanctum for authentication</li>
      <li>Vue 3</li>
      <li>Vue Class Component</li>
      <li>Vuex</li>
-     <li> Vue Router</li>
+     <li>Vue Router</li>
      <li>TypeScript</li>
     <li>Prime Vue (Frontend framework for Vue js)</li>
     <li>Prime Flex (Gird System) and many other dependencies to start a new project</li>
@@ -21,5 +22,7 @@ Leave a Star/Fork if you appreciate my efforts.
 Thanks
 
 <img src="https://github.com/islamroshan/Laravel9-Vue3-TypeScript/blob/main/image.png" height="100%" width="100%">
+
+<img src="https://github.com/islamroshan/Laravel9-Vue3-TypeScript/blob/main/sidebar.png" height="100%" width="100%">
 
 <img src="https://github.com/islamroshan/Laravel9-Vue3-TypeScript/blob/main/Dashboard.png" height="100%" width="100%">
