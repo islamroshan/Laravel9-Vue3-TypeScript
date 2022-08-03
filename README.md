@@ -21,4 +21,4 @@ Leave a Star/Fork if you appreciate my efforts.
 Thanks
 
 
-<img src="https://github.com/islamroshan/Laravel9-Vue3-TypeScript/blob/main/spantiklab.png" height="100%" width="100%">
+<img src="https://github.com/islamroshan/Laravel9-Vue3-TypeScript/blob/main/Dashboard.png" height="100%" width="100%">
