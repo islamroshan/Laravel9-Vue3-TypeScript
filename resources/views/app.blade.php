@@ -3,10 +3,8 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <title>Laravel</title>
- 
-     
+        <meta name="csrf-token" value="{{ csrf_token() }}"/>
+        <title>{{env('APP_NAME')}}</title>
     </head>
     <body>
     <div id="app"></div>

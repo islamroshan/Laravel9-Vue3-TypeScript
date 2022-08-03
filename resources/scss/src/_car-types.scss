@@ -1,0 +1,46 @@
+.car-type-datatable {
+    .car-image {
+        width: 150px;
+    }
+}
+
+.car-type-dialog {
+    .p-dialog-header {
+        text-transform: capitalize;
+        border-bottom: 1px solid var(--surface-border);
+    }
+    .p-dialog-footer {
+        border-top: 1px solid var(--surface-border);
+    }
+    .p-dialog-content {
+        padding-top: 2rem;
+        background: var(--surface-ground);
+    }
+    .p-tabview {
+        .p-tabview-nav {
+            border: none;
+            li .p-tabview-nav-link {
+                padding: 1.5rem;
+            }
+        }
+        .p-tabview-panels {
+            padding: 1.5rem;
+        }
+    }
+    .p-panel {
+        .p-panel-header {
+            background-color: var(--surface-100);
+            padding: 1.5rem 1rem;
+        }
+        .p-panel-content {
+            padding: 0;
+        }
+
+        .p-datatable {
+            .p-datatable-tbody > tr > td {
+                border: none;
+                border-width: 0;
+            }
+        } 
+    }
+}

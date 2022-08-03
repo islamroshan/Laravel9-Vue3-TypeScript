@@ -4,5 +4,16 @@
 
 @import 'primeflex/primeflex.scss';
 
+@import './src/variables';
+@import './src/mixins';
+
+@import './src/main';
 @import './src/layout';
+@import './src/topbar';
+@import './src/reservations';
+@import './src/car-inventory';
+@import './src/latest-reservations';
+@import './src/today-pickups';
+@import './src/today-returns';
+@import './src/car-types';
 @import './src/media-query';

@@ -1,8 +1,8 @@
 import { createStore, useStore as baseUseStore } from 'vuex'
-import { mainStore } from './modules/main'
+import { authStore } from './modules/auth'
 
 export default createStore({
 	modules: {
-		a: mainStore,
+		auth: authStore,
 	  }
 })

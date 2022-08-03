@@ -1,4 +1,5 @@
 import './bootstrap.js'
+
 import { createApp } from 'vue';
 import App from "./App.vue";
 import router from './router/router';
@@ -36,6 +37,16 @@ import Editor from 'primevue/editor';
 import InputNumber from 'primevue/inputnumber';
 import Tooltip from 'primevue/tooltip';
 import Menu from 'primevue/menu';
+import Checkbox from 'primevue/checkbox';
+import Panel from 'primevue/panel';
+import Timeline from 'primevue/timeline';
+import Badge from 'primevue/badge';
+import TabView from 'primevue/tabview';
+import TabPanel from 'primevue/tabpanel';
+import InputSwitch from 'primevue/inputswitch';
+
+// Full Calendar Component
+ 
 
 const app = createApp(App);
 app.use(PrimeVue, { ripple: true, inputStyle: 'outlined' });
@@ -72,7 +83,14 @@ app.component('Editor', Editor);
 app.component('InputNumber', InputNumber);
 app.component('Menu', Menu);
 app.component('MegaMenu', MegaMenu)
+app.component('Checkbox', Checkbox)
+app.component('Panel', Panel)
+app.component('Timeline', Timeline)
+app.component('Badge', Badge)
+app.component('TabView', TabView)
+app.component('TabPanel', TabPanel)
+app.component('InputSwitch', InputSwitch)
 
-app.directive('tooltip', Tooltip);
+app.directive('tooltip', Tooltip)
 
 app.mount('#app');
