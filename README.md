@@ -26,7 +26,7 @@ Follow these steps to run this app.
 <li>Clone the git repository</li>
 <li>cd into the directory</li>
 <li>Run, sail build or ./vendor/bin/sail build</li>
-<li>Run, Composer intall</li>
+<li>Run, Composer install</li>
 <li>Run, npm install</li>
 <li>Run, sail down and then sail up -d</li>
 <li>Run, sail artisan migrate</li>
